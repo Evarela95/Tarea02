@@ -1,0 +1,86 @@
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    
+}
+
+#barraLateral p{
+    padding: 5%;
+    text-align: justify;
+}
+
+#barraLateral h3{
+    padding: 5%;
+    
+}
+
+#barraLateral {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 90%;
+    width: 20%;
+    background-color: bisque;
+    color: black;
+}
+
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3%;
+    width: 100%;
+    background-color: #ff0066;
+    color: black;
+    text-align: center;
+}
+
+
+#imagenes{
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    overflow: hidden;
+}
+
+#imagenes ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+#imagenes li{
+    width: 100%;
+    list-style: none;
+    
+}
+
+#imagenes img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+    
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    
+    75%%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+    
+    
+}
+
+
+
